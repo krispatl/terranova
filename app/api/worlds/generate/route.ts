@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateWorld } from "@/lib/worldlabs";
+import { generateWorld } from "../../../../lib/worldlabs";
 
 export async function POST(req: Request) {
   try {
