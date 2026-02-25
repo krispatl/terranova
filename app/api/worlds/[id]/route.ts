@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { getWorld } from "@/lib/worldlabs";
+import { getWorld } from "../../../../lib/worldlabs";
 
 export async function GET(_req: Request, { params }: { params: { id: string } }) {
   try {
